@@ -1,5 +1,5 @@
 {
-  "name": "package-starter",
+  "name": "@ruijadom/package-starter",
   "license": "MIT",
   "version": "0.0.1",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc"
+  },
+  "repository": {
+    "url": "git://github.com/ruijadom/package-starter.git"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
